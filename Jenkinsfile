@@ -6,7 +6,7 @@ node {
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
-      mvnHome = tool 'maven 3.3.9'
+      mvnHome = tool 'Maven 3.3.9'
       
      env.JAVA_HOME="${tool 'JDK 8'}"
      env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
