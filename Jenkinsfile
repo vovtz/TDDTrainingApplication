@@ -8,7 +8,7 @@ node {
       // **       in the global configuration.           
       mvnHome = tool 'maven 3.3.9'
       
-     env.JAVA_HOME="${tool 'JDK8'}"
+     env.JAVA_HOME="${tool 'JDK 8'}"
      env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
      sh 'java -version'
    }
