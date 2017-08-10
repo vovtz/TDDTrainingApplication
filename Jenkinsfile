@@ -15,6 +15,7 @@ node {
       // Run the maven build
       if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' -f TDDTrainingApplicationCC/pom.xml -Dmaven.test.failure.ignore clean package"
+         sh "echo \"Maven step done!\""
       }
    }
    stage('Results') {
